@@ -22,32 +22,6 @@ creaTarea.addEventListener('change', (e) => {
     value = e.target.value
 })
 
-// const crearTarea = () => {
-//     const div = document.createElement('div')
-//     div.classList.add('form-check')
-//     const input = document.createElement('input')
-//     input.type = 'checkbox'
-//     input.id = 'dos'
-//     input.classList.add('form-check-input')
-//     const label = document.createElement('label')
-//     label.classList.add('form-check-label')
-//     const parrafo = document.createElement('p')
-//     parrafo.id = 'texDos'
-//     parrafo.textContent = value
-//     div.insertAdjacentElement('afterbegin', label)
-//     div.insertAdjacentElement('afterbegin', input)
-//     label.insertAdjacentElement('afterbegin', parrafo)
-//     const tareas = document.querySelector('#tareas')
-
-//     tareas.insertAdjacentElement('afterbegin', div)
-// }
-
-// btnTarea.addEventListener('click', crearTarea)
-
-
-
-
-
 let contador = 0
 //crea la tarea
 const crearTareita = () => {
@@ -100,5 +74,5 @@ const crearTareita = () => {
 }
 
 
-//evento que escucha el click de crear tarea
-btnTarea.addEventListener('click', crearTareita)
+    //evento que escucha el click de crear tarea
+    btnTarea.addEventListener('click', crearTareita)
