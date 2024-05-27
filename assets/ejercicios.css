@@ -9,7 +9,7 @@ body{
 
 }
 
-.litulo-de-todo{
+.titulo-de-todo{
     font-weight: 900;
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: black ;
@@ -18,7 +18,7 @@ body{
     
 }
 
-.litulo-de-todo:hover{
+.titulo-de-todo:hover{
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: red;
 }
